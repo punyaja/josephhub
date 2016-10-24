@@ -127,7 +127,7 @@ bot.dialog('/', [    function (session)
                      // Send a greeting and show help.  
                      var card = new builder.HeroCard(session)            
                      .title("Verizon Bot ")            
-                     .text("Your bots - wherever your users are talking.")            
+                     .text("Your bots - wherever your users are talking !! ")            
                      .images([                
                      builder.CardImage.create(session, "http://www.verizon.com//cs/groups/public/documents/adacct/vzlogo_lg.png")         
                      ]);  
